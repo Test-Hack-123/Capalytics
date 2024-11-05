@@ -28,7 +28,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains.question_answering import load_qa_chain
 from PIL import Image
 
-image = Image.open("Vasuki_logo.png")
+image = Image.open("img.png")
 col1, col2 = st.columns([1,2])
 with col1: 
      st.image(image,use_column_width=True)
