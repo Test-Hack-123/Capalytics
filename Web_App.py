@@ -35,11 +35,10 @@ with col1:
 #st.image(image)
 with col2:
      st.title('ChatMate')
-st.markdown("✨Greetings! I'm Vasuki, your AI powered ChatMate. Upload, Inquire, and Discover Answers Fast.✨")
+st.markdown("✨Greetings! I'm Capalytics, your AI tool for real-time insights into CAPA (Corrective and Preventive Actions) compliance within your organization!✨")
 
 openai.api_key = st.secrets['OPENAI_API_KEY']
-#load_dotenv()
-#openai.api_key = os.getenv(OPENAI_API_KEY)
+
 os.environ['OPENAI_API_KEY']=openai.api_key
 temp_directory = 'tmp'
 
